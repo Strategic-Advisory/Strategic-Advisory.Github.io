@@ -1,0 +1,95 @@
+
+
+.contact h2 {
+    font-size: 40px;
+    color: #0c0101;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact form {
+    width: auto;
+    align-self: auto;
+    text-align: center;
+}
+
+.payment {
+    width: 600px;
+    font-size: 20px;
+    bottom: 0;
+    color: #ededed;
+    
+    margin-left: 100px;
+    
+	position: relative;
+    position: bottom;
+}
+
+form .input-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-box .input-field {
+    width: 48.5%;
+}
+
+.field .item {
+    width: 100%;
+    padding: 18px;
+    background: transparent;
+    border: 2px solid rgb(6, 7, 7);
+    outline: none;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #130707;
+    margin: 12px 0;
+}
+
+.field.error .item {
+    border-color: #d93025;
+}
+
+.field .item::placeholder {
+    color: rgba(7, 6, 6, 0.3);
+}
+
+.field .error-txt {
+    font-size: 14.5px;
+    color: #d93025;
+    text-align: left;
+    margin: -5px 0 10px;
+    display: none;
+}
+
+.field.error .error-txt {
+    display: block;
+}
+
+form .textarea-field .item {
+    resize: none;
+}
+
+form .textarea-field .error-txt {
+    margin-top: -10px;
+}
+
+form button {
+    padding: 12px 32px;
+    background: rgb(179, 179, 182);
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgb(10, 7, 2);
+    font-size: 16px;
+    color: #333;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: .5s;
+}
+
+form button:hover {
+    box-shadow: none;
+}
